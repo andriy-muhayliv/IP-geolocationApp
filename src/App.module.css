@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.center__block {
+  width: 500px;
+  margin: auto;
+  height: 600px;
+  background-color: #014E6C;
+  border-radius: 10px;
+}
+
+.input {
+  margin-top: 20px;
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  border-radius: 6px 0 0 6px;
+  border: 0;
+
+}
+
+button {
+  background-color: #D22C32;
+  height: 32px;
+  border-radius: 0 6px 6px 0;
+  padding: 0;
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+  color: white;
+}
+
+
+button:hover {
+  background-color: #c02b30;
+}
+
+p {
+  color: #ADBFC7;
+  font-size: 12px;
+}
+
+.ip__data {
+  display: block;
+  margin-top: 10px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
