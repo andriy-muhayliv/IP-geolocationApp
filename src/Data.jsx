@@ -7,7 +7,6 @@ const Data = () => {
 
 let loader = store.getState().loader;
 let data = store.getState().data.data
-console.log(data)
 
 return(
     <div>
