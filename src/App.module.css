@@ -42,6 +42,8 @@ button:hover {
 p {
   color: #ADBFC7;
   font-size: 12px;
+  text-align: start;
+  padding-left: 30px;
 }
 
 .ip__data {
