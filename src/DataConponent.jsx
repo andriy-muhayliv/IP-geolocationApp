@@ -14,7 +14,7 @@ const DataComponent = (props) => {
             <p><span>COUNTRY CODE:</span> {props.ipData.country_code}</p>
             <p><span>ISO:</span> {props.ipData.country_code_iso3}</p>
             <p><span>COUNTRY:</span> {props.ipData.country_name}</p>
-            <p><span>COUNTRY CAPITAL:</span>{props.ipData.country_capital}</p>
+            <p><span>COUNTRY CAPITAL:</span> {props.ipData.country_capital}</p>
             <p><span>LTD:</span> {props.ipData.country_tld}</p>
             <p><span>CODE:</span> {props.ipData.continent_code}</p>
             <p><span>IN EU:</span> {props.ipData.in_eu}</p>
