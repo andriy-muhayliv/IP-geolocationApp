@@ -51,3 +51,7 @@ p {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
+
+span {
+  color: white;
+}
