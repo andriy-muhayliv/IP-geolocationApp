@@ -2,7 +2,6 @@ import React from 'react';
 import style from './App.module.css'
 const DataComponent = (props) => {
     
-    console.log(props.ipData)
 
     return(
         <div className={style.ip__data}>
