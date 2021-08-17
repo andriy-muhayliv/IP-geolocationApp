@@ -24,6 +24,7 @@ const Input =() => {
         .then(response => {
     response.json().then(jsonData => {
       store.dispatch(loaderAction(true))
+      debugger;
       store.dispatch(dataAction(jsonData))
       store.dispatch(loaderAction(false))
     });
